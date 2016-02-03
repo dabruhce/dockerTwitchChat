@@ -1,0 +1,14 @@
+{
+  "options": {
+    "debug": true
+  },
+  "connection": {
+    "random": "chat",
+    "reconnect": true
+  },
+  "identity": {
+    "username": "juirytrivia",
+    "password": "oauth:"
+  },
+  "channels": ["#juirytrivia"]
+}

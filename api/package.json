@@ -1,0 +1,15 @@
+{
+  "name": "dockerTwitch",
+  "description": "Monitor Twitch Chat",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "request": "",
+    "socket.io": "0.9.16",
+    "tmi.js": "0.0.23"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
