@@ -1,20 +1,24 @@
-Install docker toolbox
-https://www.docker.com/products/docker-toolbox
+Install docker toolbox [Docker Toolbox](https://www.docker.com/products/docker-toolbox)
 
-open a shell
 cd temp
+
 mkdir twitch
+
 cd twitch
-git clone $thisRepo
 
-get api/oauth key from twitch
+git clone https://github.com/tkntobfrk/dockerTwitchChat.git
 
-open docker quickstart shell
+get api/oauth key from [twitch] (https://twitchapps.com/tmi/)
 
-add oauth to c:\temp\twitch\$thisRepo\api\config.json
-add username to c:\temp\twitch\$thisRepo\api\config.json
-add channel to c:\temp\twitch\$thisRepo\api\config.json
-cd c:\temp\twitch\$thisRepo\
+open docker quickstart terminal
+
+add oauth to c:\temp\twitch\dockerTwitchChat\api\config.json
+
+add username to c:\temp\twitch\dockerTwitchChat\api\config.json
+
+add channel to c:\temp\twitch\dockerTwitchChat\api\config.json
+
+cd c:\temp\twitch\dockerTwitchChat\
 
 docker build -i twitch .
 
